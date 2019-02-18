@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'example' do
+  pod 'TensorFlowLite', '1.12.0'
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  #  pod 'TfliteReactNative', :path => '../node_modules/tflite-react-native'
+ pod 'TfliteReactNative', :path => '../node_modules/tflite-react-native/ios'
+
+end

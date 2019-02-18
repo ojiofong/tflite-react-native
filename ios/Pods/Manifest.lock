@@ -1,0 +1,44 @@
+PODS:
+  - React (0.58.4):
+    - React/Core (= 0.58.4)
+  - react-native-image-picker (0.28.0):
+    - React
+  - React/Core (0.58.4):
+    - yoga (= 0.58.4.React)
+  - TensorFlowLite (1.12.0)
+  - TfliteReactNative (0.0.4):
+    - React
+    - TensorFlowLite
+  - yoga (0.58.4.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - react-native-image-picker (from `../node_modules/react-native-image-picker`)
+  - TensorFlowLite (= 1.12.0)
+  - TfliteReactNative (from `../node_modules/tflite-react-native/ios`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TensorFlowLite
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  react-native-image-picker:
+    :path: "../node_modules/react-native-image-picker"
+  TfliteReactNative:
+    :path: "../node_modules/tflite-react-native/ios"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: 9b873b38b92ed8012d7cdf3b965477095ed364c4
+  react-native-image-picker: f42de90075c5b1af53417af927631d909a1a746e
+  TensorFlowLite: e81aef029750aa46b42ad16553fa4cddd81498cc
+  TfliteReactNative: 987deb129b02e57edd9ff388359628ad033cc22d
+  yoga: 0885622311729a02c2bc02dca97167787a51488b
+
+PODFILE CHECKSUM: fcfb6852a22fcf19816f4b5b3f66661d34928f63
+
+COCOAPODS: 1.5.3
