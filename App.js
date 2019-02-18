@@ -29,12 +29,12 @@ export default class App extends Component<Props> {
     this.setState({ model });
     switch (model) {
       case ssd:
-        var modelFile = 'models/ssd_mobilenet.tflite';
-        var labelsFile = 'models/ssd_mobilenet.txt';
+        var modelFile = 'ssd_mobilenet.tflite';
+        var labelsFile = 'ssd_mobilenet.txt';
         break;
       case yolo:
-        var modelFile = 'models/yolov2_tiny.tflite';
-        var labelsFile = 'models/yolov2_tiny.txt';
+        var modelFile = 'yolov2_tiny.tflite';
+        var labelsFile = 'yolov2_tiny.txt';
         break;
       default:
         var modelFile = 'mobilenet_v1_1.0_224.tflite';
