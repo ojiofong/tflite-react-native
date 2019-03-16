@@ -61,7 +61,7 @@ export default class App extends Component<Props> {
         path: 'images',
       },
     };
-    ImagePicker.launchImageLibrary(options, (response) => {
+    ImagePicker.launchCamera(options, (response) => {
       if (response.didCancel) {
         console.log('User cancelled image picker');
       } else if (response.error) {
